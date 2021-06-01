@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="./node_modules/mdb-ui-kit/css/mdb.min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="container text-center">
+<h1>Form Survey</h1>
+<hr/>
+<br/>
+<form name='myForm'>
+    <h3>Your Gender:</h3>
+    Male: <input type="radio" id='decision' value='Male' /><br>
+    Female: <input type="radio" id='decision' value='Female' /><br><br>
+    <input type="text" placeholder="First Name" name="fname" id="firstName" value=''> <br>
+    <input type="text" placeholder="Last Name" name="lname" id="lastName" value=''> <br>
+    <input type="number" placeholder="Your Age" name="age" id="age" value=''> <br>
+    <br>
+    Shopped With Us Before? <br>
+    <select name="" id="answer">
+        <option value="" selected></option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+        <option value="Going To">Going To</option>
+    </select>
+    <br>
+    Will You Recmmend Our Product? <br >
+    <select name="" id="options">
+        <option value="" selected></option>
+        <option value="Not Likely">Not Likely</option>
+        <option value="Somewhat Likely">Somewhat Likely</option>
+        <option value="Certainly">Certainly</option>
+    </select>
+    <br>
+    What Is Your Preferred Diet? <br>
+    Vegetarian or Kosher? <br>
+    <input type="text" id="food" value=""> <br>
+    <button onclick="myFunction()" type="submit">Get Alert</button>
+</form>
+
+<script src="/index.js"></script>
+<script src="node_modules/mdb-ui-kit/js/mdb.min.js"></script>
+</body>
+</html>

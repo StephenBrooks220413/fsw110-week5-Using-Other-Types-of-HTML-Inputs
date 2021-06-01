@@ -1,0 +1,17 @@
+.form-check-label {
+  margin-right: 40px !important;
+}
+
+.container {
+  margin-top: 70px !important;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(204, 240, 204);
+  font-size: 20px;
+}
